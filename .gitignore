@@ -1,0 +1,5 @@
+# folder holding large fasta files
+data/
+
+# txome indices themselves
+index/
