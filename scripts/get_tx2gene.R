@@ -10,6 +10,12 @@
 # Note this will generate a large .sqlite file, the size of which depends on
 # the species
 
+#### install optparse if necessary ---------------------------------------------
+
+if (!("optparse" %in% installed.packages())) {
+    install.packages("optparse", suppressUpdates = TRUE)
+}
+
 #### option parsing ------------------------------------------------------------
 
 option_list <- list(
