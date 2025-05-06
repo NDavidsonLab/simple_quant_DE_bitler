@@ -1,0 +1,6 @@
+# folder holding large fasta files
+data/
+GEO_Submission_Bitler/
+
+# txome indices themselves
+index/
